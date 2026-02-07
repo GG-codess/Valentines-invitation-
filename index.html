@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💌 Valentine Invite</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 350px;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    .yes {
+      background-color: #ff4d6d;
+      color: white;
+    }
+    .no {
+      background-color: white;
+      color: #ff4d6d;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Will you be my Valentine? 💖</h1>
+    <p>February 14th 🌹</p>
+
+    <button class="yes" onclick="yes()">Yes 💕</button>
+    <button class="no" onclick="no()">No 🙃</button>
+  </div>
+
+  <script>
+    function yes() {
+      alert("Yay!! 💘 I can’t wait 💕");
+    }
+
+    function no() {
+      alert("I’ll pretend you didn’t click that 😌💔");
+    }
+  </script>
+</body>
+</html>
