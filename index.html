@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>💌 Valentine Invite</title>
+  <title>💌 A Question</title>
   <style>
     body {
       background: linear-gradient(135deg, #ff758c, #ff7eb3);
-      font-family: Arial, sans-serif;
+      font-family: Arial;
       text-align: center;
       color: white;
       height: 100vh;
@@ -15,49 +14,26 @@
       align-items: center;
     }
     .card {
-      background: rgba(255, 255, 255, 0.15);
+      background: rgba(255,255,255,0.15);
       padding: 30px;
       border-radius: 20px;
-      max-width: 350px;
     }
-    h1 {
-      font-size: 26px;
-    }
-    button {
-      margin: 10px;
-      padding: 12px 20px;
-      font-size: 16px;
-      border: none;
-      border-radius: 25px;
-      cursor: pointer;
-    }
-    .yes {
-      background-color: #ff4d6d;
-      color: white;
-    }
-    .no {
-      background-color: white;
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: white;
       color: #ff4d6d;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>Will you be my Valentine? 💖</h1>
-    <p>February 14th 🌹</p>
-
-    <button class="yes" onclick="yes()">Yes 💕</button>
-    <button class="no" onclick="no()">No 🙃</button>
+    <h1>I have something to ask you… 💭</h1>
+    <a href="choice.html">Continue 💕</a>
   </div>
-
-  <script>
-    function yes() {
-      alert("Yay!! 💘 I can’t wait 💕");
-    }
-
-    function no() {
-      alert("I’ll pretend you didn’t click that 😌💔");
-    }
-  </script>
 </body>
 </html>
